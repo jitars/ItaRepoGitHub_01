@@ -1,5 +1,5 @@
 # ItaRepoGitHub_01
- Repositório público local G:\Ita\Documents\GitHub
+ Repositório público local G:\Ita\ItaRepoGitHub_01
 
 Olá, Mundo!
 Primeiro repositório do curso de Git e GitHub
