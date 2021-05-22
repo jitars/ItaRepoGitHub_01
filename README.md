@@ -3,8 +3,7 @@
 
  Repositório público local G:\Ita\ItaRepoGitHub_01
 
-Olá, Mundo!
-Primeiro repositório do curso de Git e GitHub
+Colocando algo útil no primeiro repositório do curso de Git e GitHub
 
 Repositório criado durante uma aula!
 
