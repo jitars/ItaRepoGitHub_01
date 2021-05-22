@@ -34,7 +34,6 @@ Switch ($a)
  1 {
        '$a = 1'
        Get-Bkp -Orig C:\Users\jitar\OneDrive -Dest G:\Ita\OneDrive
-
    }
 
  2 {
