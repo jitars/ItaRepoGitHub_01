@@ -1,10 +1,10 @@
 # 1stProject
  J.Itamar's first repository
 
- Repositório público local G:\Ita\ItaRepoGitHub_01
+Local public repository C:\ItaRepoGitHub_01
 
-Colocando algo útil no primeiro repositório do curso de Git e GitHub
+Putting something useful in the first repository of the Git and GitHub course
 
-Repositório criado durante uma aula!
+Repository created during a class!
 
-Essa linha eu adicionei diretamente no site GitHub remoto!
+That line I added directly to the remote GitHub site and to save, perform a Commit changes!
