@@ -3,7 +3,7 @@
 
 Local public repository C:\ItaRepoGitHub_01
 
-Putting something useful in the first repository of the Git and GitHub course
+I use this script to make my backups, so putting something useful in the first repository of the Git and GitHub course, instead of a simple "Hello World".
 
 Repository created during a class!
 
