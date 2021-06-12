@@ -2,9 +2,9 @@
 # ItaBkp.ps1
 # Exemplo de chamada deste script: .\ItaBkp.ps1 ou executar a partir do PS ISE.
 #
-# A declara��o Switch do Windows PowerShell pode
-# gerenciar um array na vari�vel $a sem nenhuma
-# modifica��o.
+# A declaracao Switch do Windows PowerShell pode
+# gerenciar um array na variavel $a sem nenhuma
+# modificacao.
 #
 
 Function Get-Bkp($orig, $dest)
@@ -21,19 +21,20 @@ Write-Output "                                                                  
 Write-Output " *  1 OneDrive             *  2 Ita_Lucky              *  3 ItaCpp "
 Write-Output " *  4 ItaCSharp            *  5 ItaDosBox              *  6 ItaEnglish"
 Write-Output " *  7 ItaHTML_CSS          *  8 ItaJavaScript          *  9 ItaPython "
-Write-Output " * 10 ItaPWShell           * 11 ItaSENAI_Class_Report  * 12 ItaSENAI_RedesComp "
+Write-Output " * 10 ItaPWShell           * 11 ItaRedesComp_AUDIO     * 12 ItaRedesComp_SENAI "
 Write-Output " * 13 ItaSQL               * 14 ItaVB                  * 15 ItaVBA "
 Write-Output " * 16 ItaXamarin           * 17 ItaLinuxShell          * 18 Downloads "
 Write-Output "                                                                               "
-# $a = Read-Host "Quais op��es de backup, por exemplo 2,3,1 ...?"
+# $a = Read-Host "Quais opcoes de backup, por exemplo 2,3,1 ...?"
 
-$a = 11,12   # Insira as op��es de backup aqui, Salve o arquivo, Clique Executar!
+$a = 6,10,11,12   # Insira as opcoes de backup aqui, Salve o arquivo, Clique Executar!
 
 Switch ($a)
 {
  1 {
        '$a = 1'
        Get-Bkp -Orig C:\Users\jitar\OneDrive -Dest G:\Ita\OneDrive
+
    }
 
  2 {
@@ -83,12 +84,12 @@ Switch ($a)
 
  11 {
        '$a = 11'
-       Get-Bkp -Orig C:\ItaSENAI_Class_Report -Dest G:\Ita\ItaSENAI_Class_Report
+       Get-Bkp -Orig C:\ItaRedesComp_AUDIO -Dest G:\Ita\ItaRedesComp_AUDIO
     }
 
  12 {
        '$a = 12'
-       Get-Bkp -Orig C:\ItaSENAI_RedesComp -Dest G:\Ita\ItaSENAI_RedesComp
+       Get-Bkp -Orig C:\ItaRedesComp_SENAI -Dest G:\Ita\ItaRedesComp_SENAI
     }
 
  13 {
