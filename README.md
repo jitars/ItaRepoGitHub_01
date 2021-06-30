@@ -7,4 +7,4 @@ I use this script to _make my backups_ on external HD, so putting something usef
 
 Repository created during a class of the Git and GitHub course!
 
-That line I added directly to the remote GitHub site and to save, perform a Commit changes!
+That line I added ~~directly~~ to the remote GitHub site and to save, perform a Commit changes!
